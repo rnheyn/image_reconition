@@ -28,6 +28,10 @@ function checkresults(error,results) {
     }
     else{
         console.log(results)
+        s=window.speechSynthesis
+        data="this is "+results[0].label
+        u=new SpeechSynthesisUtterance(data)
+        s.speak(u)
         document.getElementById("result_object_name").innerHTML=results[0].label
         document.getElementById("result_object_accuracy").innerHTML=results[0].confidence.toFixed(2)
 
