@@ -1,0 +1,17 @@
+body{
+    background-image:linear-gradient(rgb(246, 190, 190),rgb(103, 103, 192),rgb(186, 255, 186),rgb(255, 255, 184) );
+
+}
+.heading{
+    font-size: 30px;
+    width: 80%;
+}
+#camera,#result{
+    border:4px solid rgb(192, 208, 253);
+    width: 350px;
+    height: 300px;
+
+}
+.objectname,#result_object_name,#result_object_accuracy{
+    color:burlywood;
+}
